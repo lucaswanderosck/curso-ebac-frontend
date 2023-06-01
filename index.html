@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 title">
+          <h1>Formulário de Cadastro</h1>
+        </div>
+        <div class="col-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                required
+                placeholder="Seu nome" />
+            </div>
+            <div class="mb-3">
+              <div>
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  placeholder="Seu email" />
+              </div>
+              <div>
+                <label for="tel" class="form-label"> Telefone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="tel"
+                  required
+                  placeholder="Seu telefone" />
+              </div>
+            </div>
+            <div class="button">
+              <button type="submit" class="btn btn-success">ENVIAR</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
